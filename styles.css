@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
     color: #0f172a;
+    background-color: rgb(227, 227, 227);
 }
 
 body {
@@ -11,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: rgb(227, 227, 227);
 }
 
 /* THESE ARE ADDED POST COURSE! */
@@ -20,6 +22,7 @@ footer > div {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: rgb(227, 227, 227);
 }
 /* JUST THESE LINES ABOVE */
 
@@ -37,6 +40,7 @@ header {
     justify-content: space-between;
     padding: 1rem;
     gap: 1rem;
+    background-color: rgb(227, 227, 227);
 }
 
 .nav-container {
@@ -95,7 +99,7 @@ main {
     align-items: center;
     gap: 1rem;
     padding: 4rem 1rem;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(227, 227, 227);
 }
 
 .byline-text {
@@ -167,10 +171,11 @@ main {
     border: 1px solid transparent;
     background: rgb(247, 247, 247);
     border-radius: 0.25rem;
+    background-color: rgb(227, 227, 227);
 }
 
 .button-grid button:hover {
-    border: 1p0x solid slategray;
+    border: 1p0x solid rgb(218, 30, 30);
 }
 
 .language-text {
