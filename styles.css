@@ -195,6 +195,7 @@ main {
 footer {
     background: rgb(244, 244, 244);
     font-size: 0.7rem;
+    background-color: rgb(227, 227, 227);
 }
 
 footer>div {
