@@ -91,6 +91,10 @@ footer a:hover {
     border-radius: 100%;
 }
 
+.img-button img:hover {
+    box-shadow: 0 0 25px red;
+}
+
 main {
     flex: 1;
     display: flex;
