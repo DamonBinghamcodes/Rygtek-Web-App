@@ -53,6 +53,7 @@ header {
     gap: 2rem;
     margin-bottom: 20px;
     background-color: rgb(227, 227, 227);
+    flex-wrap: wrap;
   }
 
   .nav-container a{
