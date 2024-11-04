@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: rgb(227, 227, 227);
+    font-family: 'Poppins', sans-serif;
 }
 
 /* THESE ARE ADDED POST COURSE! */
@@ -46,8 +47,19 @@ header {
 .nav-container {
     display: flex;
     align-items: center;
-    gap: 1rem;
-}
+    justify-content: space-evenly; /* Adds even spacing between each item */
+    width: 100%; /* Makes sure the container takes the full width of the page */
+    padding: 1rem;
+    gap: 2rem;
+    margin-bottom: 20px;
+    background-color: rgb(227, 227, 227);
+  }
+
+  .nav-container a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+  }
 
 .text-link,
 footer a {
@@ -80,28 +92,27 @@ footer a:hover {
 }
 
 .img-button {
+    display: flex;
+    justify-content: center;  /* Center the logo horizontally */
+    margin: 20px 0;           /* Add some margin for spacing */
     border: none;
-    background: transparent;
 }
 
 .img-button img {
-    width: 250px;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
     aspect-ratio: 1 / 1;
     overflow: hidden;
     border-radius: 100%;
-}
-
-.img-button img:hover {
-    box-shadow: 0 0 25px red;
+    overflow: auto;
 }
 
 main {
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
     padding: 4rem 1rem;
     background-color: rgb(227, 227, 227);
 }
