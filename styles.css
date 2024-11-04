@@ -51,9 +51,12 @@ header {
     width: 100%; /* Makes sure the container takes the full width of the page */
     padding: 1rem;
     gap: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 0 0.5rem;
     background-color: rgb(227, 227, 227);
     flex-wrap: wrap;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    padding-top: 0;
   }
 
   .nav-container a{
@@ -97,6 +100,8 @@ footer a:hover {
     justify-content: center;  /* Center the logo horizontally */
     margin: 20px 0;           /* Add some margin for spacing */
     border: none;
+    margin-bottom: 0.5rem;
+    padding: 0;
 }
 
 .img-button img {
@@ -107,6 +112,8 @@ footer a:hover {
     overflow: hidden;
     border-radius: 100%;
     overflow: auto;
+    margin-bottom: 0.5rem;
+    padding: 0;
 }
 
 main {
