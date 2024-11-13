@@ -98,10 +98,8 @@ footer a:hover {
 .img-button {
     display: flex;
     justify-content: center;  /* Center the logo horizontally */
-    margin: 20px 0;           /* Add some margin for spacing */
+    margin: 10px 0;           /* Add some margin for spacing */
     border: none;
-    margin-bottom: 0.5rem;
-    padding: 0;
 }
 
 .img-button img {
@@ -112,7 +110,6 @@ footer a:hover {
     overflow: hidden;
     border-radius: 100%;
     overflow: auto;
-    margin-bottom: 0.5rem;
     padding: 0;
 }
 
@@ -131,6 +128,7 @@ main {
     align-items: center;
     text-align: center;
     gap: 1rem;
+    margin-top: -7rem;
 }
 
 .byline-text h2 {
@@ -219,6 +217,7 @@ footer {
     background: rgb(244, 244, 244);
     font-size: 0.7rem;
     background-color: rgb(227, 227, 227);
+    margin-top: 10rem;
 }
 
 footer>div {
