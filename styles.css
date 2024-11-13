@@ -253,3 +253,15 @@ footer>div {
         display: block;
     }
 }
+
+header, .header-title, .about-title {
+    justify-content: center;
+    text-align: center;
+}
+
+.about-title:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    transition: auto 0.3ms ease;
+    color: black;
+}
