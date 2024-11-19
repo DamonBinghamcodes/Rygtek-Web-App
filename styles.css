@@ -101,6 +101,7 @@ footer a:hover {
     justify-content: center;  /* Center the logo horizontally */
     margin: 10px 0;           /* Add some margin for spacing */
     border: none;
+    padding-bottom: 2rem;
 }
 
 .img-button img {
@@ -109,9 +110,8 @@ footer a:hover {
     height: auto;
     aspect-ratio: 1 / 1;
     overflow: hidden;
-    border-radius: 100%;
+    border-radius: 50%;
     overflow: auto;
-    padding: 0;
 }
 
 /* adding logo animation */
@@ -120,7 +120,7 @@ footer a:hover {
     to { opacity: 1; transform: scale(1); }
 }
 .img-button img {
-    animation: fadeIn 1.5s ease-in-out;
+    animation: fadeIn 1.25s ease-in-out;
 }
 
 .img-button img:hover {
@@ -144,7 +144,7 @@ main {
     align-items: center;
     text-align: center;
     gap: 1rem;
-    margin-top: -7rem;
+    margin-top: -6rem;
 }
 
 .byline-text h2 {
