@@ -229,6 +229,32 @@ main {
     text-decoration: underline;
 }
 
+/* About Us */
+.about {
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 4rem 2rem; /* Adds space inside the section */
+    margin-top: 2rem; /* Adds space above the section */
+    font-size: 1rem; /* Bigger size for emphasis */
+  color: #333; /* Darker color for readability */
+  text-transform: uppercase; /* Makes the text uppercase */
+  letter-spacing: 0.75px; /* Adds spacing between letters */
+  margin-bottom: 1rem;
+}
+
+#about-link {
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+  .about p {
+    padding: 2rem 2rem;
+    font-weight: 500;
+    letter-spacing: normal;
+    text-transform: none !important;
+  }
+
 footer {
     background: rgb(244, 244, 244);
     font-size: 0.7rem;
